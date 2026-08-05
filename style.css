@@ -1,0 +1,305 @@
+/*==========================================
+    RESET
+==========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#5B0E8B,#8A2BE2,#C77DFF);
+
+    overflow-x:hidden;
+
+}
+
+/*==========================================
+    FONDO
+==========================================*/
+
+.background{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px 20px;
+
+}
+
+/*==========================================
+    TARJETA
+==========================================*/
+
+.card{
+
+    width:100%;
+
+    max-width:520px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.30);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    animation:aparecer .8s ease;
+
+}
+
+/*==========================================
+    TITULOS
+==========================================*/
+
+h1{
+
+    font-family:'Great Vibes',cursive;
+
+    font-size:60px;
+
+    color:#FFF;
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+}
+
+h2{
+
+    color:#FFF;
+
+    text-align:center;
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+    font-weight:500;
+
+}
+
+.mensaje{
+
+    color:#FFF;
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+    line-height:1.6;
+
+    font-size:15px;
+
+}
+
+/*==========================================
+    CAMPOS
+==========================================*/
+
+.campo{
+
+    margin-bottom:20px;
+
+}
+
+label{
+
+    display:block;
+
+    color:white;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+/*==========================================
+    INPUTS
+==========================================*/
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-family:'Poppins',sans-serif;
+
+    transition:.3s;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+
+    box-shadow:0 0 15px rgba(255,255,255,.45);
+
+    transform:scale(1.02);
+
+}
+
+textarea{
+
+    resize:none;
+
+}
+
+::placeholder{
+
+    color:#888;
+
+}
+
+/*==========================================
+    BOTON
+==========================================*/
+
+button{
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:#25D366;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#1EBE5D;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.35);
+
+}
+
+button:active{
+
+    transform:scale(.98);
+
+}
+
+button i{
+
+    margin-right:10px;
+
+    font-size:22px;
+
+}
+
+/*==========================================
+    MENSAJE ERROR
+==========================================*/
+
+.error{
+
+    color:#FFD4D4;
+
+    font-size:13px;
+
+    margin-top:6px;
+
+}
+
+/*==========================================
+    RESPONSIVE
+==========================================*/
+
+@media(max-width:600px){
+
+    .card{
+
+        padding:25px;
+
+    }
+
+    h1{
+
+        font-size:48px;
+
+    }
+
+    h2{
+
+        font-size:24px;
+
+    }
+
+}
+
+/*==========================================
+    ANIMACION
+==========================================*/
+
+@keyframes aparecer{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
