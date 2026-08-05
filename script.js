@@ -102,15 +102,15 @@ function enviarFormulario(){
 
 
 
-    if(personas < 1){
+//    if(personas < 1){
 
-        alert("El número de personas debe ser mayor que cero.");
+//        alert("El número de personas debe ser mayor que cero.");
 
-        document.getElementById("personas").focus();
+//        document.getElementById("personas").focus();
 
-        return;
+//        return;
 
-    }
+//    }
 
 
 
