@@ -5,7 +5,7 @@ javascript//======================================================
 // Cambia este número por el tuyo.
 // Formato: código de país + número (sin +, espacios ni guiones)
 // Ejemplo México: 5215512345678
-const TELEFONO = "520123456789";
+const TELEFONO = "529993333295";
 
 
 //======================================================
