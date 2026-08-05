@@ -6,7 +6,7 @@
 // Formato: código de país + número (sin +, espacios ni guiones)
 // Ejemplo México: 5215512345678
 
-const TELEFONO = "5215512345678";
+const TELEFONO = "529993581666";
 
 
 //======================================================
