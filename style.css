@@ -20,7 +20,7 @@ body{
 
     align-items:center;
 
-    background:linear-gradient(135deg,#5B0E8B,#8A2BE2,#C77DFF);
+    background:transparent; /*linear-gradient(135deg,#5B0E8B,#8A2BE2,#C77DFF);*/
 
     overflow-x:hidden;
 
@@ -56,7 +56,7 @@ body{
 
     max-width:520px;
 
-    background:rgba(255,255,255,.15);
+    background:transparent; /*rgba(255,255,255,.15);*/
 
     backdrop-filter:blur(15px);
 
