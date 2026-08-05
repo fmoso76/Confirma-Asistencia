@@ -36,9 +36,9 @@ function enviarFormulario(){
 
     const asistencia = document.getElementById("asistencia").value;
 
-    const personas = document.getElementById("personas").value;
+   // const personas = document.getElementById("personas").value;
 
-    const comentarios = document.getElementById("comentarios").value.trim();
+  //  const comentarios = document.getElementById("comentarios").value.trim();
 
 
 
@@ -133,23 +133,14 @@ function enviarFormulario(){
 `🎉 *Confirmación de Asistencia* 🎉
 
 Hola.
-
 Mi nombre es:
-
 *${nombre} ${apellidos}*
-
 Confirmo que:
-
 *${asistencia}*
-
 Número de personas:
-
 *${personas}*
-
 Comentarios:
-
 ${comentarios=="" ? "Sin comentarios." : comentarios}
-
 Muchas gracias.`;
 
 
