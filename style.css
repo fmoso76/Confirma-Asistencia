@@ -53,7 +53,7 @@ body{
 
     width:100%;
 
-    max-width:520px;
+    max-width:400px; /*520px;*/
 
     background:transparent; /*rgba(255,255,255,.15);*/
 
@@ -149,7 +149,7 @@ textarea{
 
     width:100%;
 
-    padding:15px;
+    padding:1em;/*15px;*/
 
     border:none;
 
@@ -162,7 +162,7 @@ textarea{
     font-family:'Poppins',sans-serif;
 
     transition:.3s;
-
+    box-sizing: border-box; 
 }
 
 input:focus,
