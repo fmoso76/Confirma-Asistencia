@@ -21,8 +21,8 @@ body{
     align-items:center;
 
     background:transparent; /*linear-gradient(135deg,#5B0E8B,#8A2BE2,#C77DFF);*/
-
-    overflow-x:hidden;
+    overflow: hidden;
+    /*overflow-x:hidden;*/
 
 }
 
