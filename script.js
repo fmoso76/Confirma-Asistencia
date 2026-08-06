@@ -71,14 +71,9 @@ function enviarFormulario(){
     // Se eliminaron 'personas' y 'comentarios' para acoplarse a tu HTML actual
     let mensaje = 
 `🎉 *Confirmación de Asistencia* 🎉
-
 Hola.
-Mi nombre es:
-*${nombre} ${apellidos}*
-
-Confirmo que:
-*${asistencia}*
-
+Mi nombre es: *${nombre} ${apellidos}*
+Confirmo que: *${asistencia}*
 Muchas gracias.`;
 
     //--------------------------------------------------
